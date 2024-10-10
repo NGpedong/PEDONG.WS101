@@ -194,4 +194,18 @@ nav .circle {
     justify-content: center;
     text-align: justify;
 }
-   
+
+footer{
+    background-color: rgba(57, 56, 56, 0.505);
+    margin-top: 5%;
+}
+.footerContain {
+    width: 100%;
+    padding:  13px;
+}
+.socialmedia {
+    display: flex;
+    justify-content: center;
+ 
+       
+}
