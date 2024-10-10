@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'oswald', sans-serif;
+}
+
+.img {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.5;
+   
+}
+.img {
+    content: '';
+    background-image: linear-gradient(45deg, transparent, rgb(0, 0, 0)), url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1rem;
+
+}
+a:hover {
+    color: aqua;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+    background-color: rgba(57, 56, 56, 0.505);
+    border-radius: 40px;
+    margin-top: 10px ;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.navbar .link {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .butown {
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.introd {
+    position: relative;
+    text-align: center;
+    margin-top:100px;
+    left: 500px ;
+    font-family: 'oswald', sans-serif;
+    font-size: 30px;
+    background-color: rgba(121, 118, 118, 0.55);
+    border-radius: 20px;
+    border: none;
+    width: 700px;
+    color: white;
+    
+}
+.intropar {
+    text-align: justify;
+    margin: 10px;
+} 
+
+.pik1 img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 7px #ffff;
+    bottom: 120px;
+    left: 60px;
+    box-shadow: #070707;
+}
+
+.aboutme {
+    background: linear-gradient(251deg, #5d662474, #24665c7b, #6924a26d, #80a22475);
+    background-size: 800% 800%;
+    height: 88%;
+    border-radius: 40px;
+    
+
+    -webkit-animation: AnimationName 43s ease infinite;
+    -moz-animation: AnimationName 43s ease infinite;
+    animation: AnimationName 43s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+
+
+.audio {
+    background: #fd81958c;
+    width: 400px;
+    padding: 25px 50px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 3%;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    line-height: 25px;
+    background: #fff;
+    color: #f53192;
+    box-shadow: 0 5px 10px rgba(255, 192, 203, 0.559);
+}
+
+.songimg {
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid #090909;
+    box-shadow: 0 10px 60px rgba(255, 192, 203, 0.559);
+}
+
+.audio .title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 17px;
+}
+.audio .artist {
+    font-size: 14px;
+    color: #252525;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 20px;
+    font-size: larger;
+    font-weight: 300;
+    color: #fff;
+    justify-content: center;
+    text-align: justify;
+}
+   
